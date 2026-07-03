@@ -12,7 +12,7 @@ h2 {
 
 header {
     background: skyblue;
-    color: white;
+    color: black;
     text-align: center;
     padding: 1rem;
 }
@@ -24,7 +24,7 @@ header span {
 nav {
     display: flex;
     justify-content: space-around;
-    background: gray;
+    background: #444;
 }
 
 nav a {
@@ -76,7 +76,7 @@ main h1 {
 
 footer {
     background: skyblue;
-    color: white;
+    color: black;
     text-align: center;
     padding: 1rem;
 }
