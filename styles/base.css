@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+h1,
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header {
+    background: skyblue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header span {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background: white;
+    color: gray;
+    transition: .2s;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card h2 {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+.card p,
+.card ul {
+    padding: 1rem;
+}
+
+.card img {
+    max-width: 200px;
+    height: auto;
+}
+
+footer {
+    background: skyblue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.about {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.country {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.country img {
+    width: 150px;
+    height: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 200px;
+}
