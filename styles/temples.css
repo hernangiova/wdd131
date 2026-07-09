@@ -81,7 +81,6 @@ main {
 figure {
     margin: 0;
     text-align: center;
-    min-width: border-box;
 }
 
 img {
