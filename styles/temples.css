@@ -7,6 +7,10 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+p {
+    font-size: 2rem;
+}
+
 header {
     background: rgb(97, 47, 97);
     color: white;
@@ -52,9 +56,10 @@ nav a {
 }
 
 nav a:hover {
-    background: rgb(238, 238, 88);
+    background: rgb(170, 170, 30);
     margin: 0 auto;
     padding: 1rem;
+    color: black;
 }
 
 .show {
@@ -92,7 +97,7 @@ img {
 }
 
 footer {
-    background: #3f7f98;
+    background: #356b82;
     color: white;
     text-align: center;
     padding: 1rem;
