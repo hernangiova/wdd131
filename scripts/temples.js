@@ -10,7 +10,7 @@ button.addEventListener("click", function () {
     nav.classList.toggle("show");
 
     if (nav.classList.contains("show")) {
-        button.textContent = "☰";
+        button.textContent = "X";
     }
     else {
         button.textContent = "☰";

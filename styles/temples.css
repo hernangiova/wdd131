@@ -16,6 +16,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    position: relative;
 }
 
 header h2 {
@@ -46,6 +47,8 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 nav a:hover {
@@ -56,6 +59,12 @@ nav a:hover {
 
 .show {
     display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgb(76, 30, 90);
+    align-items: center;
 }
 
 main {
