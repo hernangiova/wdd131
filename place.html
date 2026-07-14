@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <meta name="author" content="Rodrigo Giovani Hernandez Romero">
+    <meta name="description" content="This page will help you to understand the basic principles for design">
+    <title>Place Page</title>
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>The Netherlands</h1>
+    </header>
+    <main>
+
+        <div class="hero">
+            <picture>
+                <source srcset="images/amsterdam.webp" media="(min-width: 700px)">
+                <img src="images/amsterdam-small.webp" alt="Netherlands landscape">
+            </picture>
+        </div>
+
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li>Area: 41,543 km²</li>
+                <li>Population: Approximately 18 million people</li>
+                <li>Capital: Amsterdam</li>
+                <li>Languages: Dutch (official), Frisian (official in Friesland), English widely spoken</li>
+                <li>Currency: Euro (€)</li>
+                <li>Time Zone: Central European Time (CET, UTC+1) / Central European Summer Time (CEST, UTC+2)</li>
+                <li>Calling Code: +31</li>
+                <li>Internet TLD: .nl</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <div class="weather-title">
+                <h2>Weather</h2>
+                <img src="images/weather-icon.svg" alt="Weather Icon">
+            </div>
+            <ul>
+                <li>Temperature: <span id="temperature"></span></li>
+                <li>Conditions: <span id="conditions"></span></li>
+                <li>Wind: <span id="wind"></span></li>
+                <li>Wind Chill: <span id="windchill"></span></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>©️<span id="currentyear"></span>| Rodrigo Hernandez | Guatemala</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
