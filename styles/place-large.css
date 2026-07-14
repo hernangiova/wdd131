@@ -24,6 +24,15 @@
         width: 300px;
     }
 
+    .weather-title img{
+        display: none;
+    }
+
+    .weather-title::after {
+        content: "🌤️";
+        font-size: 50px;
+    }
+
     main {
         position: relative;
     }

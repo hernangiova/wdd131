@@ -77,10 +77,9 @@ footer {
 
 .weather-title {
     text-align: left;
-    font-size: 15;
+    font-size: 15px;
     background-color: var(--background-title);
     padding: 1rem;
-    top: 200px;
     margin-top: 0;
     position: relative;
     right: 30px;
