@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFE5E5;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 1rem;
+    background: #B71C1C;
+    color: white;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #D32F2F;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+.products {
+    display: grid;
+    gap: 2rem;
+}
+
+.game.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info h2 {
+    margin-top: 1rem;
+}
+
+.price {
+    color: black;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    background: #E53935;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #B71C1C;
+    color: white;
+    margin-top: 2rem;
+}
+
+.cart {
+    width: 150px;
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    justify-self: end;
+}
