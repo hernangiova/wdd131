@@ -54,9 +54,10 @@ textarea {
 }
 
 .rating {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: center;
     margin-bottom: 2rem;
+    gap: 2rem;
 }
 
 .rating label {
@@ -99,7 +100,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5rem;
-    margin-top: auto;
+    margin-top: 3rem;
 }
 
 footer p {

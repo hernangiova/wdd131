@@ -1,0 +1,28 @@
+@media screen and (min-width: 750px) {
+    main {
+        max-width: 900px;
+    }
+
+    form {
+        padding: 2.5rem;
+    }
+
+    .features {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .rating {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+    }
+
+    .rating label {
+        font-size: 1rem;
+    }
+
+    footer {
+        margin-top: 3rem;
+    }
+}
