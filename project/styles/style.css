@@ -7,6 +7,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #FFE5E5;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -40,6 +44,7 @@ nav a {
 
 main {
     padding: 1rem;
+    flex: 1;
 }
 
 .products {
@@ -47,9 +52,9 @@ main {
     gap: 2rem;
 }
 
-.game.card img {
-    width: 100%;
-    border-radius: 10px;
+.game-card img {
+    width: 100px;
+    border-radius: 3px;
 }
 
 .info h2 {
@@ -78,7 +83,6 @@ footer {
     padding: 1rem;
     background: #B71C1C;
     color: white;
-    margin-top: 2rem;
 }
 
 .cart {
@@ -86,4 +90,46 @@ footer {
     padding: 0.5rem 0.5rem;
     font-size: 1rem;
     justify-self: end;
+}
+
+.hero-about {
+    background: #d32f2f;
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.hero-about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-about p {
+    max-width: 700px;
+    margin: auto;
+}
+
+.story, .mission, .why {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+}
+
+.story h2,
+.mission h2,
+.why h2 {
+    color: #B71C1C;
+    margin-bottom: 1rem;
+}
+
+.why ul {
+    padding-left: 1.5rem;
+}
+
+.logo img {
+    max-width: 100px;
 }
