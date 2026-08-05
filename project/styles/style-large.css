@@ -11,8 +11,29 @@
     }
 
     .game-card img {
-        width: 250px;
+        width: 700;
         height: 320px;
         object-fit: cover;
+    }
+
+    .hero-about {
+        padding: 4rem;
+    }
+
+    .hero-about p {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .about-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .story,
+    .mission,
+    .why {
+        margin-bottom: 0;
     }
 }
