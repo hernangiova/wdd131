@@ -11,9 +11,8 @@
     }
 
     .game-card img {
-        width: 700;
-        height: 320px;
-        object-fit: cover;
+        width: 100%;
+        height: auto;
     }
 
     .hero-about {
