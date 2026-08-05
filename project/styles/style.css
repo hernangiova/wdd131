@@ -53,8 +53,8 @@ main {
 }
 
 .game-card img {
-    width: 180px;
-    height: 260px;
+    width: 700;
+    height: 400px;
     object-fit: cover;
     border-radius: 8px;
 }
