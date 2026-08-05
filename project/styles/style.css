@@ -54,7 +54,7 @@ main {
 
 .game-card img {
     width: 900;
-    height: 1054px;
+    height: auto;
     object-fit: cover;
     border-radius: 8px;
 }
