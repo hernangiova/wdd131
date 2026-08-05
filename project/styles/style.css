@@ -137,6 +137,10 @@ footer {
     max-width: 100px;
 }
 
+.contact-container {
+    padding: 0 1rem;
+}
+
 .contact-container form {
     display: flex;
     flex-direction: column;
@@ -144,7 +148,7 @@ footer {
 }
 
 .contact-container input, .contact-container textarea {
-    width: 600px;
+    width: 100%;
     padding: 12px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
