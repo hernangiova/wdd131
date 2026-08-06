@@ -179,3 +179,63 @@ footer {
 .info h1, .info p{
     text-align: center;
 }
+
+.cart-container {
+    position: relative;
+    justify-self: end;
+}
+
+.cart {
+    width: 150px;
+}
+
+#cart-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 280px;
+    background: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    display: none;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.2);
+}
+
+#cart-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px white;
+}
+
+#cart-items p:last-child {
+    border-bottom: none;
+}
+
+.cart-item span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.remove-btn {
+    width: auto;
+    margin-top: 0;
+    padding: 5px 10px;
+    background: white;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}

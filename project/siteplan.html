@@ -8,6 +8,7 @@
     <title>The Game Shop</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/style-large.css">
+    <script src="scripts/project.js" defer></script>
 </head>
 
 <body>
@@ -17,9 +18,14 @@
         </div>
         <h1>The Game Shop</h1>
 
-        <button class="cart">
-            🛒 cart
-        </button>
+        <div class="cart-container">
+            
+            <button class="cart" id="cart">
+                🛒 cart (0)
+            </button>
+
+            <div id="cart-items"></div>
+        </div>
     </header>
 
     <nav>
@@ -40,7 +46,7 @@
                     ports of three classic 3D platformers: Super Mario 64 (1996), Super Mario Sunshine (2002), and Super Mario Galaxy
                     (2007). The package includes updated controls, optimized HD resolutions, and a built-in music player.</p>
 
-                    <button>Add to Cart</button>
+                    <button class="add-cart">Add to Cart</button>
                 </div>
             </div>
 
@@ -53,7 +59,7 @@
                     <p>The Legend of Zelda: Breath of the Wild is an open-world action-adventure game released by Nintendo on March 3, 2017. Players guide an amnesiac Link as he wakes
                     up from a 100-year slumber to explore the ruined kingdom of Hyrule and defeat Calamity Ganon.</p>
             
-                    <button>Add to Cart</button>
+                    <button class="add-cart">Add to Cart</button>
                 </div>
             </div>
 
@@ -66,7 +72,7 @@
                     and introduces interconnected tracks, dynamic rail-grinding, vehicle transformations, and a high-stakes Knockout Tour
                     mode.</p>
             
-                    <button>Add to Cart</button>
+                    <button class="add-cart">Add to Cart</button>
                 </div>
             </div>
 
@@ -79,7 +85,7 @@
                     control Cody and May, a divorcing couple turned into dolls by a magic spell, who must work together through chaotic,
                     imaginative levels guided by a magical love guru.</p>
             
-                    <button>Add to Cart</button>
+                    <button class="add-cart">Add to Cart</button>
                 </div>
             </div>
 
@@ -92,7 +98,7 @@
                     iconic Sanrio characters like Hello Kitty and Kuromi, restore an abandoned theme park, solve puzzles, craft items, and
                     decorate cabins.</p>
             
-                    <button>Add to Cart</button>
+                    <button class="add-cart">Add to Cart</button>
                 </div>
             </div>
 
@@ -103,7 +109,7 @@
                     <p class="price">$59.99</p>
                     <p>Super Mario Party Jamboree for the Nintendo Switch is the biggest entry in the series yet. It features seven diverse board games (five new and two returning), 22 playable characters, and over 110 minigames. It supports local play for 1–4 players and online modes for up to 20 players.</p>
             
-                    <button>Add to Cart</button>
+                    <button class="add-cart">Add to Cart</button>
                 </div>
                 
             </div>
