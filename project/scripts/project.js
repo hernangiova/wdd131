@@ -34,7 +34,14 @@ cartButton.addEventListener("click", () => {
             item.querySelector(".remove-btn").addEventListener("click", () => {
                 cart.splice(index, 1);
                 cartButton.textContent = `🛒 Cart (${cart.length})`;
-                item.remove();
+                cartItems.innerHTML = "";
+                
+                if (cart.length === 0) {
+                    cartItems.innerHTML = "<p>Your cart is empty</p>";
+                } else {
+                    cartButton.click();
+                    cartButton.click();
+                }
             });
 
             cartItems.appendChild(item);
