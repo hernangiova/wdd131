@@ -4,6 +4,17 @@ const addButtons = document.querySelectorAll(".add-cart");
 const cartButton = document.querySelector("#cart")
 const cartItems = document.querySelector("#cart-items");
 
+const toast = document.querySelector("#toast");
+
+function showToast(message) {
+    toast.textContent = message;
+    toast.classList.add("show");
+
+    setTimeout(() => {
+        toast.classList.remove("show");
+    }, 2000);
+}
+
 cartItems.style.display = "none";
 
 addButtons.forEach(button => {
@@ -11,6 +22,8 @@ addButtons.forEach(button => {
         const gameName = button.parentElement.querySelector("h2").textContent;
         cart.push(gameName);
         cartButton.textContent = `🛒 Cart (${cart.length})`;
+
+        showToast(`${gameName} added to cart!`);
     });
 });
 
